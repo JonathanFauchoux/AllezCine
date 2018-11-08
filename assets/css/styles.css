@@ -47,7 +47,7 @@ Body .main {
 .ui-button {
   margin-left: 25px;
   position: relative;
-  top: -15px;
+  bottom: -30px;
   left: -12px;
   background-color: #F3F1F2;
 }
@@ -65,6 +65,13 @@ Body .main {
           align-items: center;
   background-color: #FE4240;
   padding-top: 40px;
+  position: fixed;
+  top: 50%;
+  bottom: 40%;
+}
+
+.ui-draggable {
+  padding: 150px;
   border: 2px solid white;
 }
 
@@ -72,6 +79,9 @@ Body .main {
   position: relative;
   color: white;
   font-size: 1.5rem;
+  position: fixed;
+  top: 40%;
+  bottom: 50%;
 }
 
 .social_navbar {
@@ -277,6 +287,14 @@ Body .main {
   top: 0;
   z-index: 99999;
   margin: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #FE4240;
+}
+
+.nav-link:hover {
+  color: #FE4240 !important;
 }
 
 .jmb {
@@ -692,6 +710,12 @@ section .section-title {
           justify-content: center;
 }
 
+.imgfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #footer {
   background: #0d0d0d !important;
 }
@@ -709,10 +733,6 @@ section .section-title {
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-}
-
-#footer a:hover {
-  background-color: #FE4240;
 }
 
 #footer ul.social li {

@@ -6,12 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-Official Themes
-Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.
-
-Bootstrap Themes
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -19,10 +15,9 @@ Bootstrap Themes
     <title>AllezCine.be</title>
 </head>
 <body>
-    <!-- modal+18-->
-
-    <div id="dialog-message" class="modal18">
-        <p class='text_modal18'><span class=" ui-icon-alert"></span >Avez-vous plus de 18 ans?</p>
+<!-- modal+18-->
+    <div id="dialog-message" class="modal18 row">
+        <p class='text_modal18 col-12'><span class=" ui-icon-alert"></span >Avez-vous plus de 18 ans?</p>
     </div>
 <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark navglobal" >
@@ -37,19 +32,22 @@ Bootstrap Themes
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Featured movies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link " href="#">Featured series</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop movies</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Actions</a>
                 <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Policiers</a>
               </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Contact Us</a>
+              </li>
           </ul>
           <form class="form-inline my-2 my-md-0">
             <input class="form-control" type="text" placeholder="Search">
@@ -57,7 +55,7 @@ Bootstrap Themes
         </div>
       </nav>
            
-    <!--Slides carroussel-->
+<!--Slides carroussel-->
 <main>
     <div class="jumbotron jumbotron-fluid jmb">
 
@@ -69,7 +67,7 @@ Bootstrap Themes
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
-    <!-- images slides-->
+        <!-- images slides-->
         <div class="carousel-inner">
     
             <div class="carousel-item active">
@@ -101,7 +99,7 @@ Bootstrap Themes
               <button type="button" class="btn btn-dark btn-sombre ">REGISTER</button>    
           </div>
     </div> 
-     <!-- Movies -->
+<!-- Movies -->
 
 <div class="container">
     <div class="row imgmovies">   
@@ -113,7 +111,7 @@ Bootstrap Themes
     </div>
 </div>
 
-    <!-- SocialBar-->
+<!-- SocialBar-->
     <nav class='social_navbar'>
             <ul class='social_global'>        
                 <li class ='social_link'><div class='text texttwitter'><p class = 'ptwiter'>Twitter</p><i class='fab fa-twitter'></i></div></li>
@@ -123,7 +121,7 @@ Bootstrap Themes
             </ul>
         </nav>
    
-    <!-- Featured Movies-->
+<!-- Featured Movies-->
     <div class="featured_global container  "> 
         <h2 class = "titre-section">FEATURED MOVIES</h2>
             <div class ='btn_global'>
@@ -267,7 +265,7 @@ Bootstrap Themes
         </div>
     </div>
 
-    <!-- Featured Series-->
+<!-- Featured Series-->
     <div class="featured_global container"> 
             <h2 class = "titre-section">FEATURED SERIES</h2>
                 <div class ='btn_global'>
@@ -410,7 +408,7 @@ Bootstrap Themes
                 <a  class="btnPlus4">Moins de Series</a>
             </div>
         </div>
-        <!-- Shop film -->
+<!-- Shop film -->
 
     <section class="container-fluid shopmovies">
         <div class="row">
@@ -526,7 +524,7 @@ Bootstrap Themes
                     </div>
                 </div>
         </section>
-          <!-- footer-->
+<!-- footer-->
 <footer class="footer">
     <section id="footer">
         <div class="search-text"> 
@@ -614,17 +612,17 @@ Bootstrap Themes
                 <div class="col-md-2">
                     <h5><span class="text-red">ALLEZ</span><span class="text-white">CINE!</span></h5>
 
+            <div class =''>   
+                <div class="row imgfooter">
+                    <a class="col-xs-6 col-md-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
+                    <a class="col-xs-6 col-md-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
+                    <a class="col-xs-6 col-md-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
 
-                <div class="row d-flex justify-content-start">
-                    <a class="col-lg-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
-                    <a class="col-lg-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
-                    <a class="col-lg-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
-
-                    <a class="col-lg-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
-                    <a class="col-lg-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
-                    <a class="col-lg-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
+                    <a class="col-xs-6 col-md-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
+                    <a class="col-xs-6 col-md-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
+                    <a class="col-xs-6 col-md-4" href="#"><img class="imagefooter" src="assets/img/batmanmovie-2017-comedie.jpg" alt=""></a>
                 </div>
-
+            </div> 
 
                 </div>
             </div>
@@ -632,10 +630,10 @@ Bootstrap Themes
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">                    
                     <ul class="list-unstyled list-inline social text-center">
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class='fab fa-dribbble'></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-google-plus"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
                     </ul>
                 </div>

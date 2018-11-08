@@ -1,8 +1,8 @@
 $( function() {
     
-    $("main").css("opacity", "0.5");
+    $("main").css("opacity", "0.1");
     $( "#dialog-message" ).dialog({
-        resizable: false,
+        resizable: true,
         height: "auto",
         width: 600,
         opacity :1,
