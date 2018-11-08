@@ -35,6 +35,11 @@ Body .main {
           justify-content: center;
 }
 
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .ui-widget-header {
   display: none;
 }
@@ -623,6 +628,8 @@ section .section-title {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+  right: 30px;
 }
 
 .imagefooter {
@@ -702,6 +709,10 @@ section .section-title {
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+}
+
+#footer a:hover {
+  background-color: #FE4240;
 }
 
 #footer ul.social li {

@@ -15,6 +15,10 @@ Body{
     justify-content: center;
     }
 }
+.row{
+    padding:0 !important;
+    margin: 0 !important;
+}
 
 // modal18
 
@@ -464,6 +468,8 @@ margin-left: -65px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    right : 30px;
  }
   .imagefooter {
     padding: 0;
@@ -479,7 +485,9 @@ margin-left: -65px;
     border-radius: 4px;
     margin-top: 6px;
     background-color: #fff;
-    border: solid 1px #fff; }
+    border: solid 1px #fff; 
+
+}
   
   .footer_blog_area .footer_latest_movies {
     color: #fff;
@@ -530,7 +538,12 @@ margin-left: -65px;
     color: #fff;
     text-decoration: none !important;
     background-color: transparent;
-    -webkit-text-decoration-skip: objects; }
+    -webkit-text-decoration-skip: objects; 
+    &:hover{
+        background-color: #FE4240;
+    }
+}
+
   
   #footer ul.social li {
     padding: 3px 0; }
