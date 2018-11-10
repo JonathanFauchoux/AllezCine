@@ -316,12 +316,23 @@ Body .main {
   padding: 0 20px 0px 20px;
 }
 
-.dropdown-item:hover {
-  background-color: #FE4240;
+.nav-link {
+  color: white !important;
 }
 
-.nav-link:hover {
-  color: #FE4240 !important;
+.nav-item {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background-color: #FE4240;
+  color: #fff;
 }
 
 .jmb {
