@@ -404,8 +404,6 @@ top : -10px;
 display: flex;
 flex-flow: column nowrap;
 max-width: 101%;
-
-
 }
 
 
@@ -536,8 +534,13 @@ max-width: 101%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    right : 30px;
+    
+    
+    .globalfootercenter{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
  }
   .imagefooter {
     padding: 0;
@@ -720,7 +723,7 @@ max-width: 101%;
         .slidePolicier2{
             display: flex;
             flex-direction: row wrap;
-            justify-content: center !important;
+            justify-content: space-around !important;
             width :100%; 
         }    
     }

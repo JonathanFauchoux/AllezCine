@@ -710,8 +710,16 @@ section .section-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  right: 30px;
+}
+
+.footerGlobal .globalfootercenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 
 .imagefooter {
@@ -961,9 +969,8 @@ section .section-title {
     -webkit-box-direction: normal;
         -ms-flex-direction: row wrap;
             flex-direction: row wrap;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
     width: 100%;
   }
   .navglobal {
