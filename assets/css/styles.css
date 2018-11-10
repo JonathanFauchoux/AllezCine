@@ -287,6 +287,28 @@ Body .main {
   top: 0;
   z-index: 99999;
   margin: 0;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none;
+  color: white;
+  z-index: 100;
+  -webkit-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s;
+}
+
+.navglobal.solid {
+  background-color: #000 !important;
+  -webkit-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s;
+  -webkit-box-shadow: 0 0 4px grey;
+          box-shadow: 0 0 4px grey;
+}
+
+.collapse.solid {
+  background-color: #000 !important;
+  -webkit-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s;
+  padding: 0 20px 0px 20px;
 }
 
 .dropdown-item:hover {
@@ -501,7 +523,6 @@ Body .main {
 }
 
 .video {
-  margin-left: -65px;
   margin-top: 10px;
 }
 
@@ -509,9 +530,17 @@ Body .main {
   color: white;
   background-color: black;
   width: 100%;
-  margin-top: -6px;
-  border: #FE4240 2px solid;
-  margin-left: -65px;
+  height: 19%;
+  position: relative;
+  top: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  max-width: 101%;
 }
 
 .shop {
@@ -546,12 +575,7 @@ Body .main {
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   margin-bottom: 30px;
-}
-
-.movies {
-  margin-top: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
+  z-index: -1;
 }
 
 .imgmovies {
@@ -561,6 +585,9 @@ Body .main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sizepolice {
@@ -577,6 +604,7 @@ Body .main {
 
 .contactus {
   position: relative;
+  left: 0px;
   margin-bottom: 50px;
 }
 
@@ -584,6 +612,7 @@ Body .main {
   position: relative;
   left: 60px;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .botform {
@@ -646,6 +675,9 @@ section .section-title {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   right: 30px;
 }
@@ -714,6 +746,12 @@ section .section-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 #footer {
@@ -733,6 +771,10 @@ section .section-title {
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+}
+
+#footer a:hover {
+  background-color: #FE4240;
 }
 
 #footer ul.social li {
