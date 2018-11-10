@@ -104,6 +104,7 @@ Body .main {
           align-items: flex-start;
   width: 11%;
   padding: 0;
+  z-index: 9999;
 }
 
 .social_navbar .social_global .social_link {
@@ -302,6 +303,10 @@ Body .main {
   transition: background-color 0.3s ease 0s;
   -webkit-box-shadow: 0 0 4px grey;
           box-shadow: 0 0 4px grey;
+}
+
+.collapse {
+  padding: 0 20px 0px 20px;
 }
 
 .collapse.solid {
@@ -854,6 +859,13 @@ section .section-title {
         -ms-flex-pack: center !important;
             justify-content: center !important;
     width: 100%;
+  }
+  .navglobal {
+    background-color: black !important;
+  }
+  .navglobal .collapse {
+    background-color: #000;
+    padding: 0 20px 0px 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

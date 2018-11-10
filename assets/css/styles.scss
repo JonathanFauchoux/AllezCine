@@ -41,15 +41,11 @@ Body{
     flex-flow: column nowrap;
     align-items: center;
     background-color: #FE4240;
-    padding-top: 40px;
-    
+    padding-top: 40px;   
     position: fixed;
      top : 50%;
      bottom: 40%;
-     
-    
-
-    
+   
  }
 .ui-draggable{   
     padding: 150px;
@@ -65,7 +61,6 @@ Body{
     
  }
  
-
 // Social Bar
 .social_navbar{
     
@@ -79,6 +74,7 @@ Body{
         align-items:flex-start;
         width: 11%;
         padding:0;
+        z-index: 9999;
     .social_link{
         list-style-type: none;
         padding:0px 0px 0px 0px;    
@@ -125,8 +121,7 @@ Body{
             color: black;
             background-color: white;
             padding: 10px 12px 0px 12px;
-            border-radius: 100px;
-            
+            border-radius: 100px;            
         }
     }
     //facebook
@@ -157,8 +152,7 @@ Body{
             color: black;
             background-color: white;
             padding: 10px 18px 0px 18px;
-            border-radius: 100px;
-            
+            border-radius: 100px;            
         }
     } 
     // Dribbble
@@ -240,8 +234,7 @@ Body{
     color: white;
     z-index: 100;
     transition: background-color 0.3s ease 0s;
-    
-    
+        
 }
 
 .navglobal.solid{
@@ -250,14 +243,13 @@ Body{
   box-shadow: 0 0 4px grey;
 
 }
+.collapse{
+    padding: 0 20px 0px 20px;
+}
 .collapse.solid {
     background-color: #000 !important;
-    transition: background-color 0.3s ease 0s;
-    
-    padding: 0 20px 0px 20px;
-    
-   
-  
+    transition: background-color 0.3s ease 0s;    
+    padding: 0 20px 0px 20px; 
   }
 .dropdown-item:hover{
     background-color: #FE4240;
@@ -667,4 +659,12 @@ max-width: 101%;
             width :100%; 
         }    
     }
+    .navglobal{
+        background-color: rgba(0 , 0, 0, 1 ) !important;
+        .collapse{
+            background-color: #000;
+            padding: 0 20px 0px 20px;
+        }  
+    }
 }
+
