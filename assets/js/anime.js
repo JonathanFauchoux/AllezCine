@@ -16,7 +16,11 @@ $(document).ready(function(){
     $(".btnPlus").click(function(){
        $(".slidePolicier2").fadeToggle("slow");
         $(".slideAction2").fadeToggle("slow");
+<<<<<<< HEAD
        $(".btnPlus").text("Moins de films");
+=======
+        $(".btnPlus").text("plus de films");
+>>>>>>> Max
     });
     // series
     $(".btnAll3").click(function(){
