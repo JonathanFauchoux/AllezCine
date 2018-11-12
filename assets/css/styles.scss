@@ -58,8 +58,8 @@ Body{
     position: fixed;
      top : 40%;
      bottom: 50%;
-    
  }
+
  
 // Social Bar
 .social_navbar{
@@ -485,7 +485,8 @@ max-width: 101%;
 }
 .botform{
     margin-bottom:10px;
-        
+    display: flex;
+    justify-content: flex-start;
     
 }
 .sectionform{
@@ -496,9 +497,14 @@ max-width: 101%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
 
+}
+.globalform{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 

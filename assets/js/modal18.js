@@ -10,7 +10,8 @@ $( function() {
         buttons: {
             "+ de 18": function() {
                 $( this ).dialog( "close" );
-                $("main").css("opacity", "1")  
+                $("main").css("opacity", "1");
+               
             },
             "- de 18": function() {  
                 document.location.href="https://www.imdb.com/";
