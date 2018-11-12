@@ -9,10 +9,14 @@ $(document).ready(function(){
     $(".btnPolicier").click(function(){   
         $(".slidePolicier").fadeToggle("slow");    
     });
-    $(".btnPlus").click(function(){   
-        $(".slidePolicier2").fadeToggle("slow");
+
+    $('.slidePolicier2').hide();
+    $(".slideAction2").hide();
+
+    $(".btnPlus").click(function(){
+       $(".slidePolicier2").fadeToggle("slow");
         $(".slideAction2").fadeToggle("slow");
-        $(".btnPlus").text("Plus de films");
+       $(".btnPlus").text("Moins de films");
     });
     // series
     $(".btnAll3").click(function(){
@@ -25,9 +29,13 @@ $(document).ready(function(){
     $(".btnPolicier3").click(function(){   
         $(".slidePolicier3").fadeToggle("slow");    
     });
+
+    $(".slidePolicier4").hide();
+    $(".slideAction4").hide();
+    
     $(".btnPlus4").click(function(){   
         $(".slidePolicier4").fadeToggle("slow");
         $(".slideAction4").fadeToggle("slow");
-        $(".btnPlus4").text("Plus de series");
+        $(".btnPlus4").text("Moins de series");
     });
 });
