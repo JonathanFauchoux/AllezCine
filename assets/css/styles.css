@@ -40,6 +40,18 @@ Body .main {
   margin: 0 !important;
 }
 
+.modal-header {
+  background-color: #FE4240;
+  color: white !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn-block {
+  background-color: #FE4240;
+  color: white;
+}
+
 .ui-widget-header {
   display: none;
 }
@@ -648,7 +660,7 @@ Body .main {
 
 .contactus {
   position: relative;
-  right: 120px;
+  right: 600px;
   margin-bottom: 50px;
 }
 
@@ -664,14 +676,12 @@ Body .main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sectionform {
-  position: relative;
-  left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

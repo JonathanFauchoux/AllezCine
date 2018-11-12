@@ -20,6 +20,17 @@ Body{
     margin: 0 !important;
    // justify-content: center;
 }
+// login and register
+.modal-header{
+    background-color: #FE4240;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.btn-block{
+background-color: #FE4240;
+color: white;
+ }
 
 // modal18
 
@@ -473,8 +484,8 @@ max-width: 101%;
     text-align: end;
 }
 .contactus{
-    position: relative;
-    right : 120px;
+    position:relative;
+    right : 600px;
     margin-bottom: 50px;
 }
 .smovies{
@@ -486,13 +497,12 @@ max-width: 101%;
 .botform{
     margin-bottom:10px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     
 }
 .sectionform{
     
-    position :relative;
-    left: 50px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
