@@ -332,23 +332,32 @@ Body .main {
   color: white !important;
 }
 
+.nav-link:hover {
+  color: #FE4240 !important;
+}
+
 .nav-item {
-  color: white !important;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  background-color: #fe4240;
   height: 40px;
-  width: 120px;
+  width: 140px;
   border-radius: 5px;
   margin: 0 5px 0 5px;
   text-align: center;
 }
 
 .nav-item:hover {
-  background-color: #FE4240;
-  color: #fff;
+  background-color: #FFF;
+  color: #FE4240 !important;
+  border: 1px solid #FE4240;
 }
 
 .dropdown-item:hover {
   background-color: #FE4240;
+}
+
+.nav_contact {
+  margin-left: 150px;
 }
 
 .jmb {
@@ -669,6 +678,7 @@ Body .main {
   left: 60px;
   margin-bottom: 40px;
   margin-top: 40px;
+  font-size: 1.5em;
 }
 
 .botform {
@@ -679,6 +689,8 @@ Body .main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  left: 20px;
 }
 
 .sectionform {
@@ -1080,6 +1092,7 @@ section .section-title {
   .navglobal .nav-item {
     background-color: #000;
     text-align: start;
+    border: none;
   }
   .jmb {
     margin-top: 80px;
@@ -1093,6 +1106,15 @@ section .section-title {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .nav_contact {
+    margin: 0;
+  }
+  .contactus {
+    position: relative;
+    right: 70px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
   }
 }
 /*# sourceMappingURL=styles.css.map */

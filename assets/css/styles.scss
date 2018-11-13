@@ -265,23 +265,30 @@ color: white;
 
 .nav-link{
    color: white !important; 
+   &:hover{
+    color: #FE4240 !important;
+   }
    
 }
 .nav-item{
-    color: white !important;
-    background-color: rgba($color: #fff, $alpha:0.5);
+    color: white ;
+    background-color: rgba($color: #FE4240, $alpha:1);
     height: 40px;
-    width: 120px;
+    width: 140px;
     border-radius: 5px; 
     margin: 0 5px 0 5px;;
     text-align: center;
     &:hover{
-        background-color: #FE4240;
-        color: #fff;
+        background-color: #FFF;
+        color: #FE4240 !important;
+        border: 1px solid #FE4240;
     }
 }
 .dropdown-item:hover{
     background-color: #FE4240;
+}
+.nav_contact{
+ margin-left:  150px;
 }
 //Jumbo
 
@@ -493,11 +500,14 @@ max-width: 101%;
     left: 60px;
     margin-bottom: 40px;
     margin-top : 40px;
+    font-size: 1.5em;
 }
 .botform{
     margin-bottom:10px;
     display: flex;
     justify-content: center;
+    position: relative;
+    left : 20px;
     
 }
 .sectionform{
@@ -798,6 +808,7 @@ font-size: 15px;
         .nav-item{
             background-color: #000;
             text-align: start;
+            border :none;
         }  
     }
     .jmb{
@@ -809,6 +820,15 @@ font-size: 15px;
     .footer{
         display:flex;
         justify-content: space-around;
+    }
+    .nav_contact{
+        margin: 0;
+    }
+    .contactus{
+        position:relative;
+        right : 70px;
+        margin-bottom: 50px;
+        font-size: 1.5em;
     }
 }
 
