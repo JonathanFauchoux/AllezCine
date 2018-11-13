@@ -416,6 +416,7 @@ top : -10px;
 display: flex;
 flex-flow: column nowrap;
 max-width: 101%;
+height: 315px;
 }
 
 
@@ -852,4 +853,21 @@ font-size: 15px;
 }
 .modal-footer {
     background-color: #f9f9f9;
+}
+
+.sizevideo{
+    width: 100%;
+    height: 70%;  
+}
+
+//descriptionvideo //@at-root
+
+.descrip {
+   width: 100%; 
+}
+
+.buttonmovie{
+    justify-content: end;
+    text-align: right;
+    margin-top: -28px;
 }
