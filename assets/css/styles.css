@@ -1001,6 +1001,8 @@ section .section-title {
   font-size: 25px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
+  border: 2px solid grey;
+  padding: 3px;
 }
 
 #footer ul.social li:hover a i {
