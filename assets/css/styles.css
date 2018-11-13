@@ -554,18 +554,6 @@ Body .main {
   background-color: #F3F1F2;
 }
 
-.descrip {
-  width: 100%;
-}
-
-.buttonmovie {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  text-align: right;
-  margin-top: -28px;
-}
-
 .card {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 21%;
@@ -804,6 +792,12 @@ section .section-title {
 
 #arrow .arrow:hover {
   color: white;
+}
+
+.btn-mod {
+  position: relative;
+  bottom: 100px;
+  color: #fff;
 }
 
 .footerGlobal {

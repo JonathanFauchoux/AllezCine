@@ -404,15 +404,7 @@ color: white;
     padding: 0px;
     background-color: #F3F1F2;
 }
-//descriptionvideo //@at-root
-.descrip {
-    width: 100%; 
- }
-  .buttonmovie{
-     justify-content: end;
-     text-align: right;
-     margin-top: -28px;
- } 
+
 .card {
     
     flex: 0 0 21%;
@@ -601,6 +593,13 @@ font-size: 15px;
     color: white;
 }
 } 
+
+// MODAL FORMULAIRE CONTACT
+.btn-mod {
+    position:relative;
+    bottom: 100px;
+    color:#fff;
+}
  // footer
  
  .footerGlobal{
