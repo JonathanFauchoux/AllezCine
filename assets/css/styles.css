@@ -40,13 +40,11 @@ Body {
   background-color: #FE4240;
   color: white !important;
   text-align: center;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 .btn-block {
   background-color: #FE4240;
-  color: white;
-}
+  color: white; }
 
 .ui-widget-header {
   display: none; }
@@ -574,14 +572,8 @@ Body {
 
 .contactus {
   position: relative;
-<<<<<<< HEAD
   right: 600px;
-  margin-bottom: 50px;
-}
-=======
-  right: 120px;
   margin-bottom: 50px; }
->>>>>>> Max
 
 .smovies {
   position: relative;
@@ -590,18 +582,13 @@ Body {
   margin-top: 40px; }
 
 .botform {
-<<<<<<< HEAD
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-=======
-  margin-bottom: 10px; }
->>>>>>> Max
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .sectionform {
   display: -webkit-box;
@@ -615,18 +602,10 @@ Body {
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-<<<<<<< HEAD
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin-bottom: 20px;
-}
-=======
   -ms-flex-pack: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   margin-bottom: 20px; }
->>>>>>> Max
 
 .globalform {
   display: -webkit-box;
@@ -634,11 +613,10 @@ Body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
+  justify-content: space-around; }
 
 .qc-cmp-button {
   color: #000 !important; }
@@ -681,8 +659,7 @@ section .section-title {
   bottom: 10px;
   right: -100px;
   opacity: 0.5;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 #arrow {
   padding: 0;
@@ -697,12 +674,9 @@ section .section-title {
   position: fixed;
   bottom: 50px;
   right: -110px;
-  opacity: 1;
-}
-
-#arrow .arrow:hover {
-  color: white;
-}
+  opacity: 1; }
+  #arrow .arrow:hover {
+    color: white; }
 
 .footerGlobal {
   width: 100%;

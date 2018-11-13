@@ -78,7 +78,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h1>LATEST <SPAN class="red-title">ON</SPAN>LINE <span class="red-title">MO</span>VIES</h1>
                     <p>IN SPACE NO ONE CAN HEAR YOU SREAM.</p>
-                    <button type="button" class="btn btn-danger btn-red">WATCH TRAILER</button>
+                    <a data-toggle="modal" href="#trailer"><button type="button" class="btn btn-danger btn-red">WATCH TRAILER</button></a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -512,25 +512,25 @@
         <div class="row">
             <div class="col-md-7 col-sm-12 sizecard">
                 <div class=" showcard row">
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/batmanmovie-2017-comedie.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">Batman Movie 2017</p>
                         </div>
                     </div>
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/inception-2010-scifi.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">Inception 2010</p>
                         </div>
                     </div>
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/intouchables-2011-comedie.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">Intouchables 2011</p>
                         </div>
                     </div>
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/starwarsempire-1980-scifi.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">Star Wars 4 </p>
@@ -538,13 +538,13 @@
                     </div>
                 </div>
                 <div class="row showcard">
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/shutterisland-2010-thriller.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">Shutter Island 2010</p>
                         </div>
                     </div>
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/lesdeuxtours-2002-aventure.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">Les deux tours 2002</p>
@@ -556,7 +556,7 @@
                             <p class="sizepolice">Hostel 2005</p>
                         </div>
                     </div>
-                    <div class="card bgcard col-md-3 col-sm-6">
+                    <div class="card bgcard col-md-3 col-sm-7">
                         <img class="card-img-top" src="assets/img/WhatWeDoInTheShadows-2014-comedie.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="sizepolice">What we do in the shadows 2014</p>
@@ -744,10 +744,6 @@
     </section>
 </footer>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> Max
 <!-- Modal movies --><!-- Modal movies --><!-- Modal movies --><!-- Modal movies -->
 <!-- Batman -->
 <div class="modal fade" id="batman" role="dialog">
@@ -900,7 +896,39 @@
             </div>
           </div> 
         </div>
-      </div> 
+</div> 
+
+<!-- modal trailer -->
+
+<div class="modal fade" id="trailer" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Me Before You</h3>
+            </div>
+            <div class="modal-body">
+                    <iframe width=100% height=100% src="https://www.youtube.com/embed/Eh993__rOxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p> Description:</p>
+                    <p>Louisa Clark, dite Lou, est une jeune fille 
+                        excentrique qui multiplie les petits boulots 
+                        pour aider sa famille à joindre les deux bouts. 
+                        Sa bonne humeur est mise à rude épreuve quand 
+                        elle devient l'aide-soignante de Will Traynor, 
+                        un jeune et riche banquier paralysé dans un 
+                        accident deux ans plus tôt. Peu à peu, avec 
+                        l'aide de Louisa, Will perd son cynisme et 
+                        reprend goût à la vie.</p>
+              <p>Réalisateur: Thea Sharrock</p>
+              <p>Année sortie: 2016</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+
 </main> 
 
 <!-- LES SCRIPTS --><!-- LES SCRIPTS --><!-- LES SCRIPTS --><!-- LES SCRIPTS -->
