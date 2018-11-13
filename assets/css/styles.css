@@ -951,6 +951,12 @@ section .section-title {
   background-color: #FE4240;
 }
 
+.btn-mod {
+  position: relative;
+  bottom: 100px;
+  color: #fff;
+}
+
 #footer {
   background: #0d0d0d !important;
   display: -webkit-box;
