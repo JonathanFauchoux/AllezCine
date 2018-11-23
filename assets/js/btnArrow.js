@@ -26,7 +26,7 @@ connect.appendChild(arrow);
     });
 });
  $(document).ready(function(){
-    $("#myBtn").click(function(){
+    $("#myBtn").click(() =>{
         $("#inception").modal();
     });
 });
